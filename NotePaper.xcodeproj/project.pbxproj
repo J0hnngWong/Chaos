@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3418EDB31056DD8072D5FCBC /* Pods_NotePaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B986835DDB7FCCB0DCB3A70B /* Pods_NotePaper.framework */; };
 		780F5BB121BFFF11008A284B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F5BB021BFFF11008A284B /* AppDelegate.m */; };
 		780F5BB421BFFF11008A284B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F5BB321BFFF11008A284B /* ViewController.m */; };
 		780F5BB721BFFF11008A284B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780F5BB521BFFF11008A284B /* Main.storyboard */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0262F2B44C84BF8EEFDCB20D /* Pods-NotePaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotePaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotePaper/Pods-NotePaper.debug.xcconfig"; sourceTree = "<group>"; };
-		16AB1BD3E1195FB7250218AC /* Pods-NotePaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotePaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotePaper/Pods-NotePaper.release.xcconfig"; sourceTree = "<group>"; };
 		780F5BAC21BFFF11008A284B /* NotePaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotePaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		780F5BAF21BFFF11008A284B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		780F5BB021BFFF11008A284B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,7 +51,6 @@
 		780F5BCF21BFFF12008A284B /* NotePaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotePaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		780F5BD321BFFF12008A284B /* NotePaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotePaperUITests.m; sourceTree = "<group>"; };
 		780F5BD521BFFF12008A284B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B986835DDB7FCCB0DCB3A70B /* Pods_NotePaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotePaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3418EDB31056DD8072D5FCBC /* Pods_NotePaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,15 +78,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C79234F920F530C45093C11 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0262F2B44C84BF8EEFDCB20D /* Pods-NotePaper.debug.xcconfig */,
-				16AB1BD3E1195FB7250218AC /* Pods-NotePaper.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		780F5BA321BFFF11008A284B = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +85,6 @@
 				780F5BC721BFFF12008A284B /* NotePaperTests */,
 				780F5BD221BFFF12008A284B /* NotePaperUITests */,
 				780F5BAD21BFFF11008A284B /* Products */,
-				5C79234F920F530C45093C11 /* Pods */,
-				D71C2AC84F2B012479C7273F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,14 +132,6 @@
 			path = NotePaperUITests;
 			sourceTree = "<group>";
 		};
-		D71C2AC84F2B012479C7273F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B986835DDB7FCCB0DCB3A70B /* Pods_NotePaper.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,11 +139,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 780F5BD821BFFF12008A284B /* Build configuration list for PBXNativeTarget "NotePaper" */;
 			buildPhases = (
-				C6CD2B3F9EACA5A080D182C3 /* [CP] Check Pods Manifest.lock */,
 				780F5BA821BFFF11008A284B /* Sources */,
 				780F5BA921BFFF11008A284B /* Frameworks */,
 				780F5BAA21BFFF11008A284B /* Resources */,
-				A1D49F00BEBEC7D2BA18F735 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,75 +256,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A1D49F00BEBEC7D2BA18F735 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NotePaper/Pods-NotePaper-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveObjCBridge/ReactiveObjCBridge.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjCBridge.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotePaper/Pods-NotePaper-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C6CD2B3F9EACA5A080D182C3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NotePaper-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		780F5BA821BFFF11008A284B /* Sources */ = {
@@ -528,7 +433,6 @@
 		};
 		780F5BD921BFFF12008A284B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0262F2B44C84BF8EEFDCB20D /* Pods-NotePaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,7 +449,6 @@
 		};
 		780F5BDA21BFFF12008A284B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16AB1BD3E1195FB7250218AC /* Pods-NotePaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
