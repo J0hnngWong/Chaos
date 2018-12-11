@@ -1,0 +1,62 @@
+PODS:
+  - FBRetainCycleDetector (0.1.4)
+  - IQKeyboardManager (6.2.0)
+  - lottie-ios (2.5.2)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - ReactiveCocoa (8.0.2):
+    - ReactiveSwift (~> 4.0)
+  - ReactiveObjC (3.1.0)
+  - ReactiveObjCBridge (4.0.0):
+    - ReactiveObjC (~> 3.1)
+    - ReactiveSwift (~> 4.0)
+  - ReactiveSwift (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - lottie-ios
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - MLeaksFinder
+  - ReactiveCocoa
+  - ReactiveObjC
+  - ReactiveObjCBridge
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBRetainCycleDetector
+    - IQKeyboardManager
+    - lottie-ios
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MLeaksFinder
+    - ReactiveCocoa
+    - ReactiveObjC
+    - ReactiveObjCBridge
+    - ReactiveSwift
+    - Result
+
+SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  ReactiveCocoa: fbd26e9ba60e98417ee47433e59465a98ed9da0f
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  ReactiveObjCBridge: c2e4c6a8c1f960902f48ce2ee4ff2b24b8ae172d
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+
+PODFILE CHECKSUM: 7ea13af6a7eff06807c17bf62aff86ffd0a888f3
+
+COCOAPODS: 1.5.3
