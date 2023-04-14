@@ -6,16 +6,9 @@
 //
 
 import UIKit
+import SnapKit
 import NaturalLanguage
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let c = NLLanguageRecognizer()
-        
-    }
-    
     
 }
-
