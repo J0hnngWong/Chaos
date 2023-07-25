@@ -14,6 +14,12 @@
 		5201B7F129E9620600495952 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201B7F029E9620600495952 /* BaseNavigationController.swift */; };
 		52459D6329E96786001DBBEA /* AddRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459D6229E96786001DBBEA /* AddRecordVC.swift */; };
 		52459D6529E96B24001DBBEA /* DataAggregationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459D6429E96B24001DBBEA /* DataAggregationVM.swift */; };
+		52459D6D29ED5919001DBBEA /* InfinityListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459D6C29ED5919001DBBEA /* InfinityListVC.swift */; };
+		52459D6F29ED5936001DBBEA /* InfinityListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459D6E29ED5936001DBBEA /* InfinityListVM.swift */; };
+		52459D7229ED59DB001DBBEA /* InfinityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459D7129ED59DB001DBBEA /* InfinityListCell.swift */; };
+		52459D7629ED5A1F001DBBEA /* IdentifiableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459D7529ED5A1F001DBBEA /* IdentifiableCell.swift */; };
+		52459D7929ED5C18001DBBEA /* InfinityListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52459D7829ED5C18001DBBEA /* InfinityListModel.swift */; };
+		52459D7E29EE4171001DBBEA /* InfinityList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52459D7C29EE4171001DBBEA /* InfinityList.xcdatamodeld */; };
 		52AE27BB29DED32D002291E6 /* PersistentConatiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE27BA29DED32D002291E6 /* PersistentConatiner.swift */; };
 		52F32F5629C0103700013A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F32F5529C0103700013A0F /* AppDelegate.swift */; };
 		52F32F5829C0103700013A0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F32F5729C0103700013A0F /* SceneDelegate.swift */; };
@@ -50,6 +56,12 @@
 		5201B7F029E9620600495952 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		52459D6229E96786001DBBEA /* AddRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordVC.swift; sourceTree = "<group>"; };
 		52459D6429E96B24001DBBEA /* DataAggregationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAggregationVM.swift; sourceTree = "<group>"; };
+		52459D6C29ED5919001DBBEA /* InfinityListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityListVC.swift; sourceTree = "<group>"; };
+		52459D6E29ED5936001DBBEA /* InfinityListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityListVM.swift; sourceTree = "<group>"; };
+		52459D7129ED59DB001DBBEA /* InfinityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityListCell.swift; sourceTree = "<group>"; };
+		52459D7529ED5A1F001DBBEA /* IdentifiableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableCell.swift; sourceTree = "<group>"; };
+		52459D7829ED5C18001DBBEA /* InfinityListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityListModel.swift; sourceTree = "<group>"; };
+		52459D7D29EE4171001DBBEA /* InfinityList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfinityList.xcdatamodel; sourceTree = "<group>"; };
 		52AE27BA29DED32D002291E6 /* PersistentConatiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentConatiner.swift; sourceTree = "<group>"; };
 		52F32F5229C0103700013A0F /* Chaos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F32F5529C0103700013A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +155,81 @@
 			path = Add;
 			sourceTree = "<group>";
 		};
+		52459D6929ED58EF001DBBEA /* InfinityList */ = {
+			isa = PBXGroup;
+			children = (
+				52459D7729ED5C0A001DBBEA /* Model */,
+				52459D7029ED59CF001DBBEA /* View */,
+				52459D6B29ED590B001DBBEA /* VM */,
+				52459D6A29ED5904001DBBEA /* VC */,
+			);
+			path = InfinityList;
+			sourceTree = "<group>";
+		};
+		52459D6A29ED5904001DBBEA /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				52459D6C29ED5919001DBBEA /* InfinityListVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		52459D6B29ED590B001DBBEA /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				52459D6E29ED5936001DBBEA /* InfinityListVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		52459D7029ED59CF001DBBEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52459D7129ED59DB001DBBEA /* InfinityListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52459D7329ED5A02001DBBEA /* ListBase */ = {
+			isa = PBXGroup;
+			children = (
+				52459D7429ED5A0C001DBBEA /* Cell */,
+			);
+			path = ListBase;
+			sourceTree = "<group>";
+		};
+		52459D7429ED5A0C001DBBEA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52459D7529ED5A1F001DBBEA /* IdentifiableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		52459D7729ED5C0A001DBBEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52459D7829ED5C18001DBBEA /* InfinityListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52459D7A29EE4152001DBBEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52459D7B29EE4158001DBBEA /* DataBase */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52459D7B29EE4158001DBBEA /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				52459D7C29EE4171001DBBEA /* InfinityList.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
 		52F32F4929C0103700013A0F = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +253,9 @@
 		52F32F5429C0103700013A0F /* Chaos */ = {
 			isa = PBXGroup;
 			children = (
+				52459D7A29EE4152001DBBEA /* Resources */,
+				52459D7329ED5A02001DBBEA /* ListBase */,
+				52459D6929ED58EF001DBBEA /* InfinityList */,
 				52459D6029E9676A001DBBEA /* Record */,
 				5201B7EA29E95B6D00495952 /* Base */,
 				52F32F5529C0103700013A0F /* AppDelegate.swift */,
@@ -335,13 +425,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				52AE27BB29DED32D002291E6 /* PersistentConatiner.swift in Sources */,
+				52459D7629ED5A1F001DBBEA /* IdentifiableCell.swift in Sources */,
 				52F32F6029C0103700013A0F /* Chaos.xcdatamodeld in Sources */,
+				52459D6F29ED5936001DBBEA /* InfinityListVM.swift in Sources */,
+				52459D6D29ED5919001DBBEA /* InfinityListVC.swift in Sources */,
 				5201B7E929E95B3C00495952 /* BaseTabController.swift in Sources */,
+				52459D7229ED59DB001DBBEA /* InfinityListCell.swift in Sources */,
 				52F32F5A29C0103700013A0F /* ViewController.swift in Sources */,
 				52F32F5629C0103700013A0F /* AppDelegate.swift in Sources */,
+				52459D7929ED5C18001DBBEA /* InfinityListModel.swift in Sources */,
 				5201B7F129E9620600495952 /* BaseNavigationController.swift in Sources */,
 				5201B7EE29E95CD700495952 /* DataAggregationVC.swift in Sources */,
 				52459D6529E96B24001DBBEA /* DataAggregationVM.swift in Sources */,
+				52459D7E29EE4171001DBBEA /* InfinityList.xcdatamodeld in Sources */,
 				52459D6329E96786001DBBEA /* AddRecordVC.swift in Sources */,
 				5201B7E729E95A6000495952 /* ViewModel.swift in Sources */,
 				52F32F5829C0103700013A0F /* SceneDelegate.swift in Sources */,
@@ -695,6 +791,16 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
+		52459D7C29EE4171001DBBEA /* InfinityList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52459D7D29EE4171001DBBEA /* InfinityList.xcdatamodel */,
+			);
+			currentVersion = 52459D7D29EE4171001DBBEA /* InfinityList.xcdatamodel */;
+			path = InfinityList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		52F32F5E29C0103700013A0F /* Chaos.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
